@@ -1,0 +1,138 @@
+
+#about{
+    margin-top: -90px;
+    background-color: aliceblue;
+    height: 400px;
+}
+
+#about #to{
+    font-size: 50px;
+    font-family: 'Allison', cursive;
+    font-style: italic ;
+}
+
+#about #nho{
+    color: #848484;
+    font-size: 20px;
+}
+
+#room{
+    margin: 10px;
+    margin-top: 50px;
+    float: left;
+    width: 31.8%;
+    height: 280px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 10px 10px silver;
+}
+#room img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all 0.3s linear;
+    display: block;
+}
+#room img:hover{
+    transform: scale(1.15);
+    transition: all 0.3s linear;
+}
+#rooms div{
+    display: block;
+    overflow: hidden;
+}
+#introduce{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    background-color:white;
+    float: left;
+    width: 31.8%;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 10px silver;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+#introduce a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+}
+#introduce .title{
+    padding: 0px 30px;
+    height: 300px;
+}
+#introduce .title span{
+    color: #848484;
+    padding: 0px 15px;
+}
+#introduce .readmore{
+    font-size: 15px;
+    color: black;
+    position: relative;
+    bottom: -30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#introduce .readmore:hover{
+    border-bottom: 2px solid #d4d4d4;
+}
+#viewall{
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+#viewall a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif; 
+    letter-spacing: 5px;
+}
+#viewall a:hover{
+    color: #848484;
+}
+
+#cuoi{
+    display: flex;
+    margin-top: 50px;
+    background-color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 320px;
+}
+#cuoi #b1{
+    background-color: black;
+    border-radius: 15px;
+}
+#cuoi #b2{
+    background-color: black;
+    font-size: 20px;
+    color: #fff;
+}
+#cuoi #b3{
+    background-color: black;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 100px;
+}
+#cuoi #b4 {
+ margin-left: 70px;
+ margin-top: 20px;
+   }
+#cuoi #b4 img{
+ width: 250px;
+ border-radius: 15px;
+}
+#cuoi #b1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+#cuoi #b1 i{
+    margin-left: 30px;
+}
